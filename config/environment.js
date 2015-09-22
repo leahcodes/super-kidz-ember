@@ -4,6 +4,8 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'super-kidz',
     environment: environment,
+    contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
+    firebase: 'https://super-kidz.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

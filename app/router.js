@@ -6,6 +6,8 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('about');
+  this.route('superkid', {path: '/superkid/:superkid_id'});
 });
 
 export default Router;

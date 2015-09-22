@@ -1,0 +1,12 @@
+{{yield}}
+
+<div class="col-md-4">
+  {{#link-to 'superkid' superkid.id}}{{superkid.name}} - ${{superkid.rate}}/per superhour{{/link-to}}
+  <span {{action 'delete'}} class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+  {{update-superkid superkid=superkid update="update"}}
+  {{#if isImageShowing}}
+    <p><img class="img-responsive" src={{superkid.image}} {{action 'imageHide'}}></p>
+  {{else}}
+    <span {{action 'imageShow'}} class="glyphicon glyphicon-camera" aria-hidden="true"></span>
+  {{/if}}
+</div>

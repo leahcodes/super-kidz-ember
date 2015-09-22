@@ -1,0 +1,17 @@
+{{outlet}}
+
+<h4>Super Kidz Inc. is a non-profit specializing in talented and gifted children.</h4>
+<h4>We are devoted to excellent customer service, which means finding only the very best super kidz to fulfill all of your super needs.</h4>
+
+<h4>Super Kidz has worked with:</h4>
+
+<ul>
+  {{#each model as |cohort|}}
+    <li>{{cohort.name}}</li>
+  {{/each}}
+</ul>
+
+<h4>Questions? Concerns? Contact us:</h4>
+<p>Super Kidz Inc.</p>
+<p>1212 Super Way</p>
+<p>Gresham, OR 92210</p>

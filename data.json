@@ -1,0 +1,20 @@
+{ "superkids": [{
+    "name": "Lil Spidey",
+    "age": 3,
+    "powers": "Spidey-sense, cries webs",
+    "rate": 0.25,
+    "image": "http://data.whicdn.com/images/67554313/original.jpg"
+  }],
+
+  "cohorts": [{
+    "name": "Spiderman"
+  }, {
+    "name": "Wolverine"
+  }, {
+    "name": "The Incredibles!"
+  }, {
+    "name": "The Hulk"
+  }, {
+    "name": "Iron Man"
+  }]
+}

@@ -1,0 +1,10 @@
+{{outlet}}
+
+<div class="row">
+  {{#each model as |superkid|}}
+    {{superkid-tile superkid=superkid update="update" delete="delete"}}
+  {{/each}}
+</div>
+
+<br>
+{{new-superkid save="save"}}
